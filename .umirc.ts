@@ -17,4 +17,8 @@ export default defineConfig({
   antd: {
     dark: false,
   },
+  theme: {
+    "brand-primary": "#ea3d4c",
+    "fill-body": "#ffffff"
+  },
 });

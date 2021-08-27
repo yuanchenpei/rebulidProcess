@@ -1,0 +1,92 @@
+.cardWarp{
+  padding: 10px;
+}
+
+.avator {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+.name {
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-right: 4px;
+}
+
+.customerTag {
+  height: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #aeaeae;
+  line-height: 16px;
+  border-radius: 3px;
+  border: 1px solid #aeaeae;
+  padding: 0 2px;
+  &--positive {
+    border-color: #ea3d4c;
+    color: #ea3d4c;
+  }
+}
+
+.chatButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__wechat {
+    width: 30px;
+    height: 30px;
+  }
+
+  &__loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  &__name {
+    font-size: 12px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 18px;
+    margin-left: 4px;
+  }
+}
+
+.tags {
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  margin-left: 50px;
+  color: #777777;
+
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+
+  .tagItem {
+    font-size: 12px;
+    display: inline-block;
+    width: auto;
+    height: 23px;
+    line-height: 23px;
+    margin-right: 8px;
+    padding: 0 7px;
+    border-radius: 22.5px;
+    color: #777;
+    margin-bottom: 8px;
+    background-color: #f8f8f8;
+  }
+}
